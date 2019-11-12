@@ -1,5 +1,7 @@
 # Functions Reference
 
+- [Introduction](/docs/)
+
 ## Selector
 
 ### **`select <tags>`** `In: None. Out: <block>`{.input} ### {#select .def}
