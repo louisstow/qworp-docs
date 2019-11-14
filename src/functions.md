@@ -2,7 +2,7 @@
 
 - [Introduction](/docs/)
 
-## Selector
+## Selector {.type}
 
 ### **`select <tags>`** `In: None. Out: <block>`{.input} ### {#select .def}
 
@@ -164,7 +164,7 @@ Returns input blocks that pass a filter test. If a tag is used as the first argu
 - **hastail** - blocks that has tail content from the `after` function
 - **notail** - blocks that has no tail content from the `after` function
 
-## Blocks
+## Blocks {.type}
 
 ### **`after <tail: string> [once]`** `In: <block>. Out: <In>`{.input} ### {#after .def}
 
@@ -279,7 +279,7 @@ The #A tag is at position 0 relative to the root of the document. It's children 
 	c {2}(pos)
 ~~~
 
-## Date
+## Date {.type}
 
 ### **`now`** `In: None. Out: <number>`{.input} ### {#now .def}
 
@@ -319,7 +319,7 @@ Input blocks have the underline format applied.
 
 Resets all format and colors of the input blocks to the default values.
 
-## Number
+## Number {.type}
 
 ### **`avg`** `In: <number>. Out: <number>`{.input} ### {#avg .def}
 
@@ -490,7 +490,7 @@ Select the children of #A, extract the value of #v and multiply by 2.
 {2, 6, 4}(#A | children | expr "#v * 2" | join)
 ~~~
 
-## String
+## String {.type}
 
 ### **`text`** `In: <block>. Out: <string>`{.input} ### {#text .def}
 
@@ -571,7 +571,7 @@ Removes the provided tag from the input blocks. This will remove the first occur
 
 Toggle tag will removed the provided tag if present on the input block. It will add it to the end of the block if it is not present. Toggle tag will remove all occurances of the tag that are present on the block.
 
-## Misc.
+## Misc. {.type}
 
 ### **`error`** `In: None. Out: <string>`{.input} ### {#error .def}
 
