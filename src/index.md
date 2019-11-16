@@ -2,8 +2,9 @@
 
 **qworp** is a text editor where you make the rules. It's programmable and interactive.
 
-- [Function Reference](/docs/functions)
 - [Learn qworp in 2 minutes (Interactive Demo)](/api/4zvEBQ/duplicate)
+- [Function Reference](/docs/functions)
+- [REST API](/docs/api)
 
 ## Blocks
 

@@ -1,6 +1,7 @@
 # Functions Reference
 
 - [Introduction](/docs/)
+- [REST API](/docs/api)
 
 ## Selector {.type}
 
